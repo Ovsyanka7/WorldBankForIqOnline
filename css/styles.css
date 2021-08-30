@@ -1,0 +1,143 @@
+.container {
+  margin-top: 22px;
+  margin-left: 9px;
+  margin-right: 11px;
+  font-family: sans-serif;
+}
+
+.header__contacts {
+  margin-bottom: 21px;
+  margin-right: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__logo {
+  margin-left: 3px;
+}
+
+.contacts__phoneNumbers {
+  font-size: 18pt;
+  color: #eb5017;
+}
+
+.header__menu {
+  height: 43px;
+  display: flex;
+  background: #231f20;
+  border: 1px solid #e0e0e0;
+}
+
+.menu__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 14pt;
+  border-left: 1px solid #eb5017;
+}
+
+.menu__item:hover {
+  background: #eb5017;
+}
+
+.menu__item:first-child {
+  border: none;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.history {
+  margin-top: 14px;
+  margin-left: 21px;
+}
+
+.history__item {
+  color: #231f20;
+
+}
+
+.calculator {
+  background: #f2f2f2;
+  padding-top: 19px;
+  padding-bottom: 32px;
+  padding-left: 18px;
+  margin-left: 21px;
+  margin-top: 24px;
+  width: max-content;
+}
+
+.calculator__name {
+  font-size: 30px;
+  color: #eb5017;
+  padding-bottom: 28px;
+  padding-left: 80px;
+}
+
+.calc__param_td {
+  padding-left: 30px;
+  padding-bottom: 19px;
+}
+
+.calc__param_td_slider {
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.calc__param_name_td, 
+.calc__param_td {
+  vertical-align: sub;
+}
+
+.calc__param {
+  width: 88px;
+}
+
+.param__slider {
+  display: flex;
+}
+
+.slider {
+  margin-left: 18px;
+  width: 241px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__info {
+  font-size: 10px;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.result__info {
+  margin-left: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #395306;
+}
+
+.calculator__result {
+  display: flex;
+}
+
+.footer {
+  background: #231f1f;
+  height: 43px;
+  padding-top: 12px;
+  margin-top: auto;
+}
+
+.footer__item{  
+  margin-left: 26px;
+  color: #e3e3e3; 
+}
+
+.footer__item:first-child{
+  margin-left: 64px;
+}
